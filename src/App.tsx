@@ -386,7 +386,7 @@ function App() {
         )}
 
         {/* Bottom Navigation Bar */}
-        <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 flex flex-nowrap justify-center gap-2 bg-rose-50/95 dark:bg-pink-950/95 rounded-full px-2 py-2 sm:px-2 sm:py-1.5 shadow-xl border border-rose-100 dark:border-pink-900 backdrop-blur-md w-auto max-w-[46rem]">
+        <div className="section-neon fixed bottom-4 left-1/2 -translate-x-1/2 z-40 flex flex-nowrap justify-center gap-2 bg-rose-50/95 dark:bg-pink-950/95 rounded-full px-2 py-2 sm:px-2 sm:py-1.5 shadow-xl border border-rose-100 dark:border-pink-900 backdrop-blur-md w-auto max-w-[46rem]">
           {[
             { icon: Instagram, label: "Instagram", href: "https://instagram.com/hijabynvlr" },
             { icon: ShoppingBag, label: "Shopee", href: "https://shopee.co.id/nvlrhijab" },
