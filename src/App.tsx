@@ -386,7 +386,7 @@ function App() {
         )}
 
         {/* Bottom Navigation Bar */}
-        <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 flex flex-wrap justify-center gap-3 bg-rose-50/95 dark:bg-pink-950/95 rounded-full px-2 py-2 sm:px-4 sm:py-3 shadow-xl border border-rose-100 dark:border-pink-900 backdrop-blur-md w-[calc(100vw-2rem)] max-w-[46rem]">
+        <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 flex flex-wrap justify-center gap-2 bg-rose-50/95 dark:bg-pink-950/95 rounded-full px-2 py-2 sm:px-2 sm:py-1.5 shadow-xl border border-rose-100 dark:border-pink-900 backdrop-blur-md w-[calc(100vw-2rem)] max-w-[46rem]">
           {[
             { icon: Instagram, label: "Instagram", href: "https://instagram.com/hijabynvlr" },
             { icon: ShoppingBag, label: "Shopee", href: "https://shopee.co.id/nvlrhijab" },
@@ -398,7 +398,7 @@ function App() {
               href={item.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-full bg-rose-100/90 dark:bg-pink-950/80 px-2 py-2 sm:px-3 sm:py-2 text-neutral-700 dark:text-neutral-200 hover:bg-rose-200 dark:hover:bg-pink-900/70 hover:text-pink-600 dark:hover:text-pink-300 transition-all duration-200 shadow-sm min-w-[3rem] justify-center"
+              className="flex items-center gap-2 rounded-full bg-rose-100/90 dark:bg-pink-950/80 px-2 py-2 sm:px-1.5 sm:py-1 text-neutral-700 dark:text-neutral-200 hover:bg-rose-200 dark:hover:bg-pink-900/70 hover:text-pink-600 dark:hover:text-pink-300 transition-all duration-200 shadow-sm min-w-[3rem] justify-center"
               title={item.label}
               onMouseEnter={() => setCursorText(item.label)}
               onMouseLeave={() => setCursorText("")}
